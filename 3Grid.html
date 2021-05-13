@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Muahaha: https://github.com/jesusrojasweb/movies
+http://flexboxfroggy.com/#es
+http://cssgridgarden.com/#es
+https://scrimba.com/g/gR8PTE
+
+https://www.w3.org/TR/css-grid-1/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout
+https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/
+https://github.com/yomar-dev/css-grid
+Grid Container: va a ser el elemento padre que va a tener puesto un nuevo tipo de display: grid. Nos permite colocar otras propiedades para manipular nuestro layaout.
+Grid Item: Son nuestro componentes, contenido, lo que vamos a manejar. Nuestras filas o columnas que vamos a mover a nuestro gusto. Son hijos directos de grid.
+Grid Line: Lineas divisorias horizontales y verticales.
+Grid Track: Espacio entre dos líneas adyacentes. Filas y columnas.
+Grid Cell: Celdas, espacio en dos filas adyacentes y 2 columnas adyacentes.
+Grid Area: Espacio rodeado por 4 grid lines
+
+https://www.quackit.com/css/grid/tutorial/explicit_vs_implicit_grid.cfm
+Grid explicito(explicit grid) es cuando nosotros definimos el numero de filas o columnas.
+Grid implicito(implicit grid) es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
+Para cambiar el flujo automático de mi grid:
+grid-auto-flow: column; - Por defecto viene grid-auto-flow: row;
+Para asignar el valor por defecto de el espacio de las columnas o filas que no han sido asignadas:
+grid-auto-columns: valores;
+grid-auto-rows: valores;
+
+UNIDADES Y FUNCIONES:
+fr unidad de medida que representa una fracción.
+auto distribuye el espacio respecto al contenido.
+repeat(number, value)(4, 1fr) permite repetir la configuración
+minmax(min, max) permite definir un mínimo y máximo
+
+PROPIEDADES:
+- display: subgrid; hereda el grid del padre, no disponible
+- display:inline-grid; muestra el grid en una sola linea, no disponible
+  display:grid;
+  grid-template-columns: 250px 20% 1fr;
+  grid-template-rows:300px 300px;
+  grid-template: filas / columnas;
+  grid-column-gap:30px;
+  grid-row-gap:50px;
+  grid-gap: row column;
+-grid-template-columns: [start] 3fr [featured-1-ends-featured-2-starts] 1fr [featured-2-ends] 1fr [one-before-ends] 1fr [end];
+  grid-template-rows: [start] 1fr [middle] 1fr [end];
+
+TAMAÑO DE FILAS Y COLUMNAS:
+Para usar por espacios: span 2
+Para usar el espacio de toda la columna usamos -1 al final 
+grid-column-start: 1;
+grid-column-end: 3;
+grid-column: inicio / final;
+grid-row-start: 1;
+grid-row-end: 3;
+grid-row:inicio / final;
+- grid-column:start/end;
+grid-area:rs / cs /re/ce;
+order:0; como z-index
+
+AREAS DE CONTENIDO:
+grid-template-areas:"header header" 
+                      "left contenido" 
+                      "footer footer";
+.header{grid-area:header;}
+
+ALINEAR CONTENIDOS:
+- Las del contenedor padre:
+justify-items: que manipula los elementos en sentido horizontal.
+align-items: que manipula los elementos en sentido vertical.
+start, end, center, defecto es stretch, hace que tomen toda la fila o columna.
+Pata distribuir uniformemente:
+Con space-around Los items tienen el mismo espacio a su alrededor
+Con space-evenly Hay un espacio mas homogeneo entre items
+Con space-between El primer item al inicio, el último al final
+- Las de los items dentro del padre:
+justify-self: que manipula el objeto en sentido horizontal.
+align-self: que manipula el objeto en sentido vertical.
+
+justify-content, align-content
+
+Yo defino el concepto desde un Sketch, pasando a un Wireframe, 
+después un Mockup y si le gusta al cliente seguimos.
+https://pixabay.com/
+https://unsplash.com/
+https://www.pexels.com/ -->
+</body>
+</html>
