@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: purple;
+    }
+
+    .box {
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: inline-block;
+      background-color: green;
+      margin-left: 20px;
+      padding-left: 50px;
+      margin-bottom: 20px;
+      width: 500px;
+      height: 200px;
+    }
+  </style>
 </head>
+
 <body>
-  
+  <div class="container">
+    <div class="child">SIN BORDER BOX</div>
+  </div>
+
+  <br>
+
+  <div class="container box">
+    <div class="child">CON BORDER BOX</div>
+  </div>
 </body>
+
 </html>
