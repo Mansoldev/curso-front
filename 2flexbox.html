@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      background-color: #24292E;
+      color: white;
+      height: 100px;
+    }
+
+    nav>div {
+      padding: 20px;
+      background-color: grey;
+      margin-right: 10px;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .justify-beetween {
+      justify-content: space-between;
+    }
+
+    .align-center {
+      align-items: center;
+    }
+
+    .justify-end {
+      justify-content: flex-end;
+    }
+  </style>
 </head>
+
 <body>
-  
+  <header class="flex justify-beetween align-center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Brandon_Sanderson_-_Lucca_Comics_%26_Games_2016.jpg"
+      alt="" width="80" height="100" />
+    <nav class="flex justify-end">
+      <div>Galeria</div>
+      <div>Sobre mi</div>
+      <div>Mis fotos</div>
+      <div>Mi perfil</div>
+    </nav>
+  </header>
 </body>
+
 </html>

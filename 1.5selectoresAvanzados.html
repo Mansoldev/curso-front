@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <style>
+    div {
+      border: 1px solid black;
+    }
+
+    .grandparent {
+      background-color: #E3F2FD;
+      width: 100%;
+      height: 2000px;
+    }
+
+    .parent {
+      background-color: #BBDEFB;
+      width: 500px;
+      height: 500px;
+    }
+
+    .child {
+      background-color: #90CAF9;
+      width: 100px;
+      height: 100px;
+    }
+
+    .grandchild {
+      background-color: #64B5F6;
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grandparent">
+    <div class="parent">P</div>
+
+    <div class="parent">
+      <div class="child">C</div>
+      <div class="child">C</div>
+    </div>
+
+    <div class="parent">
+      <div class="child">
+        <div class="grandchild">GC</div>
+      </div>
+      <div class="child">
+        <div class="grandchild">GC</div>
+        <div class="grandchild">GC</div>
+        <div class="grandchild">GC</div>
+      </div>
+      <div class="child">
+        <div class="grandchild">GC</div>
+      </div>
+      <div class="child">C</div>
+    </div>
+  </div>
+</body>
+
+</html>
