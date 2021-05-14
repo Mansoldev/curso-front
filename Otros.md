@@ -3,8 +3,8 @@
 ## Prioridades css
 ## Todo el css que se
 ## Ventajas de usar clases, BEM, flexbox, GRID y frameworks
-## diferencia entre Front "antiguo" y "moderno"
-## Flujo web
+## diferencia entre Front "antiguo" y "moderno", como se crean las paginas
+## Flujo web: XML, JSON, integraciones
 ## Sesion, GlobalState, Router front vs back, localstorage, firebase
 
 # JS
